@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+header {
+  background-image: url(../images/banner.jpg);
+  position: relative;
+  color: white;
+}
+.overlay {
+  background-color: #0f5f5ccc;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.phn-number {
+  padding-top: 2px;
+  border-left: 1px solid #8c8c8cb3;
+  padding-left: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.4rem;
+  padding-left: 0.5rem;
+  margin-left: 28px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #ffffffc2;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: white;
+}
+.btn-highlight {
+  border: 2px solid #6d8383;
+  background-color: #6d8383;
+  color: white !important;
+}
+.btn-highlight:hover {
+  border: 2px solid #6fb048;
+  background-color: #6fb048;
+}
+.navbar .container {
+  border-bottom: 1px solid #ffffff73;
+  padding: 10px 0;
+}
+.head {
+  text-align: left;
+  width: 45%;
+}
+.benner-section {
+}
+.benner-section h1 {
+  font-weight: 600;
+}
+.benner-section p {
+  margin: 20px 0;
+  width: 100%;
+}
+.btn-custom {
+  background-color: #6fb048;
+  padding: 12px 40px;
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.btn-custom:hover {
+  background-color: #6d8383;
+  color: white;
+}
+.benner-section .row {
+  min-height: 700px;
+  align-items: center;
+}
+
+.feature-part {
+  color: #84a6a5;
+  padding: 25px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.heading h2 {
+  color: #0f5f5c;
+  font-weight: 600;
+}
+.heading span {
+  background: #6fb048;
+  width: 15%;
+  height: 1px;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.heading p {
+}
+
+.feature {
+  padding: 20px 0;
+}
+.feature img {
+  margin-bottom: 10px;
+}
+.feature h3 {
+  color: #0f5f5c;
+  font-weight: 600;
+  font-size: 22px;
+}
+.feature p {
+}

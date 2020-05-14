@@ -1,0 +1,28 @@
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+  .head {
+    text-align: left;
+    width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .head {
+    text-align: left;
+    width: 90%;
+  }
+  .benner-section .row {
+    min-height: 615px;
+    align-items: center;
+  }
+}
+@media (max-width: 575px) {
+  .head {
+    text-align: center;
+    width: 95%;
+  }
+  .benner-section .row {
+    min-height: 510px;
+    align-items: center;
+  }
+}
